@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  margin-top: 10rem;
+  border-radius: 16px;
+  background: linear-gradient(
+    179.66deg,
+    rgba(26, 19, 112, 0.6) -31.38%,
+    rgba(42, 37, 103, 0) 126.14%
+  );
+}
+
+.header {
+  background: #261a83;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.3rem 2rem;
+  border-radius: 16px 16px 0 0;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  font-family: "Poppins Medium";
+}
+
+.detailsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(
+    179.66deg,
+    rgba(26, 19, 112, 0.6) -31.38%,
+    rgba(42, 37, 103, 0) 126.14%
+  );
+}
+
+.detailsBox {
+  color: white;
+  font-family: "Poppins Light";
+  padding: 40px;
+}
+
+.detailsBox:nth-child(1) {
+  border-right-width: 2.1px;
+  border-right-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      transparent 10%,
+      #74a09e 50%,
+      transparent
+    )
+    1 100%;
+}
+
+.detailsBox table td {
+  margin-top: 6px;
+}
+.detailsBox table td:nth-child(1) {
+  display: flex;
+}
+.detailsBox table td:nth-child(2) {
+  padding: 0 46px;
+}
+
+.button {
+  width: 100%;
+  background: #ac32d8;
+  border: none;
+  color: white;
+  padding: 16px 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+}

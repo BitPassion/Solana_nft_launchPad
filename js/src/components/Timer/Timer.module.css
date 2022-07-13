@@ -1,0 +1,37 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerBoxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.timerBox {
+  background: linear-gradient(21.29deg, #261a83 -17.99%, #ba06fb 180.65%);
+  border-radius: 8px;
+  margin: 0 6px;
+  padding: 6px;
+  color: white;
+  color: #fff;
+  font-size: 28px;
+}
+.text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #898989;
+  text-align: center;
+}
+
+.timerColon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerColon p {
+  color: white;
+  margin-bottom: 36px;
+}

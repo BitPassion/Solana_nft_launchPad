@@ -1,0 +1,45 @@
+.card {
+  background: linear-gradient(21.29deg, #261a83 -17.99%, #ba06fb 180.65%);
+  border-radius: 16px;
+  width: 384px;
+  padding: 16px;
+  margin: 10px 0px;
+}
+
+.cardImageContainer {
+  width: 100%;
+  height: 260px;
+  /* background-image: url("../../assets/face.png"); */
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.contentContaier {
+  margin-top: 10px;
+}
+
+.contentContaier h3 {
+  font-family: "Poppins Bold";
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.contentContaier p {
+  font-family: "Poppins Light";
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.contentContaier button {
+  background: #ac32d8;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}

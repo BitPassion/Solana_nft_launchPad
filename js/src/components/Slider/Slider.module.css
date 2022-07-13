@@ -1,0 +1,30 @@
+.sliderContainer {
+  position: relative;
+}
+.btnPrev {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  z-index: 1;
+  background: #b1abb5;
+  border-radius: 50%;
+  border: none;
+  padding: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnNext {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  z-index: 1;
+  border-radius: 50%;
+  border: none;
+  padding: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
